@@ -2,7 +2,7 @@
  * Example of integrating with Express.js for webhook handling
  */
 
-import express from 'express';
+import express, { Request, Response } from 'express';
 import { DListClient, WebhookVerificationError } from '../index';
 
 // Initialize Express app
@@ -18,7 +18,7 @@ const webhookSecret = 'your-webhook-secret';
 /**
  * Webhook endpoint for receiving vote notifications
  */
-app.post('/webhook', (req, res) => {
+app.post('/webhook', (req: Request, res: Response) => {
   try {
     // The JWT token should be in the request body
     const token = req.body;
