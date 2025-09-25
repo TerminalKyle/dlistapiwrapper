@@ -24,6 +24,8 @@ This wrapper is inspired by and built for the amazing [dlist.gg](https://discord
 npm install dlist-api-wrapper
 ```
 
+📦 **Available on npm**: [https://www.npmjs.com/package/dlist-api-wrapper](https://www.npmjs.com/package/dlist-api-wrapper)
+
 ## Getting Started
 
 To use the dlist-api-wrapper, you'll need an API key from the dlist.gg dashboard. You can get one by visiting `https://discordlist.gg/bot/<your bot id>/dashboard/webhooks` and clicking "Regenerate Token".
